@@ -1,0 +1,59 @@
+.toolBar {
+    -fx-background-color: #3c3f41;
+    -fx-border-color: #2c2f31;
+    -fx-alignment: center-right;
+}
+
+.clientPane {
+    -fx-background-color: #3c3f41;
+    border-style: none;
+}
+
+.rightFrame {
+    -fx-text-fill: #A5A6A6;
+    border-style: none;
+    -fx-background-color: #2b2b2b;
+}
+
+.button {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: #B1B1B1;
+    border-style: none;
+    -fx-font-size: 10pt;
+}
+
+.button:hover {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #dd4f51;
+}
+
+.closeButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #919191;
+    border-style: none;
+}
+
+.closeButton:hover {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #E71123;
+}
+
+.systemButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #919191;
+    border-style: none;
+}
+
+.systemButton:hover {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #505354;
+}
+
+.label {
+    -fx-text-fill: #A5A6A6;
+    -fx-font: 10pt "MS Gothic";
+}
+
+.split-pane-divider {
+   -fx-background-color: transparent;
+}

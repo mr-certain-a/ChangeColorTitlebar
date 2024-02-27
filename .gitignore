@@ -1,2 +1,4 @@
 .gradle
 .idea
+/javafx-sdk-17.0.10
+/out
