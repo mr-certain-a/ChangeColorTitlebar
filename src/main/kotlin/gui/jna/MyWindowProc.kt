@@ -45,8 +45,8 @@ class MyWindowProc : WindowProc {
             SWP_NOMOVE or SWP_NOSIZE or SWP_NOZORDER or SWP_FRAMECHANGED
         )
 
-        // リサイズを可能にするため WS_DLGFRAME を追加する
-        val style = myUser32.GetWindowLong(hwnd, GWL_STYLE).or(0x00040000 /* =WS_DLGFRAME */)
+        // リサイズを可能にするため WS_THICKFRAME を追加する
+        val style = myUser32.GetWindowLong(hwnd, GWL_STYLE).or(0x00040000 /* =WS_THICKFRAME*/)
         myUser32.SetWindowLong(hwnd, GWL_STYLE, style)
     }
 

@@ -14,7 +14,7 @@ import java.util.*
 
 class App: Application() {
     companion object {
-        const val TITLE_STRING = "Change the color of title bar In JavaFX."
+        const val TITLE_STRING = " Change the color of title bar in JavaFX."
 
         @JvmStatic
         fun main(args: Array<String>) {
